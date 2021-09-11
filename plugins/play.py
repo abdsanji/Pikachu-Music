@@ -905,7 +905,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again request here @PikachuVcAssitant with your group link</b>",
+                        "\n\nOr manually add assistant to your Group and try again request here @PikachuVcAssistant with your group link</b>",
                     )
     try:
         await USER.get_chat(chid)
